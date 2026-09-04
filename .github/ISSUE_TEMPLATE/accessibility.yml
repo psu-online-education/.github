@@ -1,12 +1,12 @@
 name: Accessibility issue
-description: Report an accessibility barrier or bug on Accessibility Toolkit.
+description: Report an accessibility barrier or bug.
 title: "[a11y]: <short description of the issue>"
 labels: ["accessibility"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report an accessibility issue. Reports like yours help us make Accessibility Toolkit usable by everyone.
+        Thanks for taking the time to report an accessibility issue. Reports like yours help us make World Campus usable by everyone.
 
         Please share as much as you're comfortable with — partial reports are still useful. If you're using assistive technology, feel free to describe what you experienced in your own words.
 
@@ -24,7 +24,7 @@ body:
     attributes:
       label: Page URL
       description: The URL of the page where you encountered the issue.
-      placeholder: "https://accessibility-toolkit.org/..."
+      placeholder: "https://www.worldcampus.psu.edu/..."
     validations:
       required: false
 
@@ -53,7 +53,7 @@ body:
       description: |
         How can we reproduce the issue? A screen recording or screenshot is optional but very helpful.
       placeholder: |
-        1. Go to https://accessibility-toolkit.org/...
+        1. Go to https://www.worldcampus.psu.edu/...
         2. Press Tab to move focus to the first interactive element.
         3. Observe that...
     validations:
